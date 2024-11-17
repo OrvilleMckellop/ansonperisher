@@ -36,13 +36,8 @@ const toggleDialog = () => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="absolute top-16 left-16  bg-white rounded-lg p-6 w-80 shadow-lg">
             <h2 className="text-lg font-bold mb-4">Login</h2>
-            <div className="text-center mt-12 mb-6">
-          <p className="text-gray-800">
-          To obtain login information, please contact our <a href="https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf" className='text-blue-400'>DFAR</a> compliance team at <a href='https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf' className='text-blue-400'>compliance@ansonperisher.com</a>
           
-          </p>
-        </div>
-            {/* <form>
+            <form>
               <label className="block mb-2">
                 Username:
                 <input
@@ -72,7 +67,13 @@ const toggleDialog = () => {
                   Login
                 </button>
               </div>
-            </form> */}
+            </form>
+            <div className="text-center mt-12 mb-6">
+          <p className="text-gray-800">
+          To obtain login information, please contact our <a href="https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf" className='text-blue-400'>DFAR</a> compliance team at <a href='https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf' className='text-blue-400'>compliance@ansonperisher.com</a>
+          
+          </p>
+        </div>
           </div>
         </div>
       )}

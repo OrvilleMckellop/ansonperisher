@@ -13,7 +13,7 @@ const toggleDialog = () => {
 
   return (
     <div
-      className="fixed inset-0 flex items-center justify-center bg-cover bg-center"
+      className="fixed inset-0 flex items-center justify-center lg:bg-cover bg-center"
       style={{
         backgroundImage: `url('/background.jpg')`,
         fontFamily: "'Lato', sans-serif",
@@ -34,7 +34,7 @@ const toggleDialog = () => {
       {/* Dialog */}
       {showDialog && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="absolute top-16 right-16  bg-white rounded-lg p-6 w-80 shadow-lg">
+          <div className="absolute top-16 lg:right-16 md:right-16 bg-white rounded-lg p-6 w-80 shadow-lg">
             <h2 className="text-lg font-bold mb-4">Login</h2>
           
             <form>
@@ -70,7 +70,7 @@ const toggleDialog = () => {
             </form>
             <div className="text-center mt-12 mb-6">
           <p className="text-gray-800">
-          To obtain login information, please contact our <a href="https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf" className='text-blue-400'>DFAR</a> compliance team at <a href='https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf' className='text-blue-400'>compliance@ansonperisher.com</a>
+          To obtain login information, please contact our <a href="https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf" target='_blank' className='text-blue-400'>DFAR</a> compliance team at <a href='https://www.acquisition.gov/sites/default/files/current/dfars/pdf/DFARS.pdf' target='_blank' className='text-blue-400'>compliance@ansonperisher.com</a>
           
           </p>
         </div>

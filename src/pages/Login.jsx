@@ -25,7 +25,7 @@ const toggleDialog = () => {
       {/* Login Button */}
       <button
         onClick={toggleDialog}
-        className="absolute top-4 left-4 rounded shadow-lg hover:bg-gray-100 hover:text-black flex gap-2 text-blue-300 py-2 px-4"
+        className="absolute top-4 right-4 rounded shadow-lg hover:bg-gray-100 hover:text-black flex gap-2 text-blue-300 py-2 px-4"
       >
         <IoPerson/>
         <p>Login</p>
@@ -34,7 +34,7 @@ const toggleDialog = () => {
       {/* Dialog */}
       {showDialog && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="absolute top-16 left-16  bg-white rounded-lg p-6 w-80 shadow-lg">
+          <div className="absolute top-16 right-16  bg-white rounded-lg p-6 w-80 shadow-lg">
             <h2 className="text-lg font-bold mb-4">Login</h2>
           
             <form>
